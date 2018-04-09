@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+
+BODY
+{
+	
+	color:white;
+	margin:0px;
+}
+
+header
+{
+	background:black;
+	color:white;
+	padding-top:8px;
+	padding-right:0px;
+	padding-left:40px;
+	padding-bottom:10px;
+	height:40px;
+}
+header h1
+{
+	display:inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:32px;
+	float:left;
+	margin-top:0px;
+	margin-right:10px;
+	margin-left:0px;
+	margin-bottom:0px;
+	
+}
+nav ul
+{
+	display:inline;
+	float:left;
+	padding:0px;
+
+}
+ nav ul li 
+ {
+	display:inline-block;
+	font-style:none;
+	color:white;
+	float:left;
+	margin-left:10px;
+	
+}
+	nav ul li a
+	{
+		color:white;
+		text-decoration:none;
+	}
+	#nav
+	{
+		font-family:'Montserrat', sans-serif;
+	}
+	.hometext1 
+	{
+	background-color:red;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:17px;
+}
+.divider
+{
+	background-color:red;
+	height:6px;
+	}
+	
+.hometext2:hover
+{
+	background-color:blue;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:17px;
+		
+	}
+	BODY
+	{
+		margin:0px;
+		padding:0px;
+		text-align: center;
+		background:linear-gradiant(rgba(0,0,150,0.5),rgba(0,0,50,0.5));
+		background-image:url(pic8.jpg);
+		background-size: cover;
+		background-position: center;
+		font-family:sans-serif;
+		
+	}
+	.contact-title{
+		margin-top:100px;
+		color:#fff;
+		text-transform: uppercase;
+		transition: all 4s ease-in-out;
+	}
+	.contact-title h1{
+		font-size:32px;
+		line-height:10px;
+		color:red;
+		
+	}
+	.contact-title h2{
+		font-size:16px;
+		color:red;
+		
+	}
+	form{
+		margin-top:50px;
+		transition: all 4s ease-in-out;
+		
+	}
+	.form-control{
+		width:600px;
+		background:transparent;
+		border:none;
+		outline:none;
+		border-bottom: 1px solid grey;
+		color: black;
+		font-size:18px;
+		margin-bottom:16px;
+	}
+	
+	
+	/*-------footer--------*/
+	footer {
+	
+	background-color:grey;
+	color:red;
+	padding:2% 0;
+	width:100%;
+	clear:both;
+	height:100px;
+	}
+	.footer-content{
+		max-width:960px;
+		padding:2% o;
+		margin:0 auto;
+		font-family:proxima-nova, sans-serif;
+		font-style:normal;
+		font-weight:300;
+		line-height:1.4;
+		color:red;
+		letter-spacing:.03em;
+		font-size:1em;
+		
+	}
+	.credit{
+		float:left;
+	}
+	.socialicons{
+		float:right;
+	}
+	.socialicons li{
+		display:inline;
+	}
+	.socialicons li a {
+		color:#red;
+		padding:0.2em;
+		font-size:1.8em;
+		font-weight:600;
+
+	}
+    .socialicons li a:hover{
+	color:blue;
+}	
+	
+/*--------footer end-------------^/	
+	
+	
+	
+	
